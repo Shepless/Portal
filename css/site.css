@@ -1,0 +1,68 @@
+.stretch-width {
+    width: 100%;
+}
+
+.stretch-height {
+    height: 100%;
+}
+
+.stretch-full {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* HEADER PANEL */
+
+#application-header-container {
+    height: 125px;
+}
+
+#application-banner-container {
+    height: 90px;
+    background: url('http://my.t-mac.co.uk/cdn/media/images/Web.Mvc.UI.Banner.Background.png');
+}
+
+#application-menu-container {
+    height: 29px;
+    background: url('http://my.t-mac.co.uk/cdn/media/images/Web.Mvc.UI.AppMenuBackground.png')  repeat-x top;
+    border-top: 5px solid #686F7C;
+    border-bottom: 1px solid darkgrey;
+}
+
+
+
+/* NAVIGATION PANEL */
+
+#application-navigation-container {
+    width: 298px;
+    float: left;
+    overflow: auto;
+    border-right: 2px solid #D0D0CD;
+}
+
+#application-navigation-content {
+    padding: 10px;
+}
+
+/* CONTENT CONTAINER */
+
+#application-body-container {
+    margin-top: -125px;
+    padding-top: 125px;
+    box-sizing: border-box;
+}
+
+#application-content-container {
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+
+#application-content-wrapper {
+    overflow: auto;
+}
+
+#viewport {
+    padding: 20px;
+}
