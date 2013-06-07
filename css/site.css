@@ -11,6 +11,14 @@
     width: 100%;
 }
 
+/* HTML AND BODY */
+html, body {
+    margin: 0;
+    body: 0;
+    overflow: auto;
+    min-width: 1000px;
+    min-height: 550px;
+}
 
 
 /* HEADER PANEL */
@@ -49,15 +57,22 @@
 /* CONTENT CONTAINER */
 
 #application-body-container {
+    *height: expression((this.parentNode.clientHeight - parseInt(this.currentStyle['paddingTop']) - parseInt(this.currentStyle['paddingBottom'])) + 'px');
     margin-top: -125px;
     padding-top: 125px;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
+
 
 #application-content-container {
     padding-left: 300px;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    *width: auto !important;
+    *padding-left: 0;
 }
+
 
 #application-content-wrapper {
     overflow: auto;
